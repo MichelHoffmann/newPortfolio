@@ -6,13 +6,10 @@ export const Section = styled.section`
   align-items: center;
 
   img {
-    width: 286px;
-    height: 309;
-
     margin-bottom: 30px;
   }
 
-  article {
+  div {
     color: white;
     font-weight: 600;
     display: flex;
@@ -36,7 +33,7 @@ export const Section = styled.section`
   }
 `
 
-export const Article = styled.div`
+export const Article = styled.article`
   display: flex;
   flex-direction: row;
   gap: 25px;
@@ -48,11 +45,14 @@ export const Article = styled.div`
     border: 2px solid var(--purple-dark);
     background-color: var(--blue-gray);
 
-    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
-      width: 35px;
-      height: 35px;
+      width: 25px;
+      height: 25px;
+      margin: 0;
     }
   }
 `

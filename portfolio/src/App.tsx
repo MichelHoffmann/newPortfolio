@@ -13,28 +13,34 @@ function App() {
       <main>
         <Section>
           <img src={avatar} alt="" />
-          <article>
+          <div>
             <p>OLÁ 👋🏽 EU SOU O</p>
             <h1>
               MICHEL <br />
               <span>HOFFMANN</span>
             </h1>
             <h3>Front-end Developer</h3>
-          </article>
+          </div>
           <Article>
             <div>
               <img src={ts} alt="" />
             </div>
+
             <div>
               <img src={react} alt="" />
             </div>
+
             <div>
               <img src={tailwind} alt="" />
             </div>
+
             <div>
               <img src={next} alt="" />
             </div>
           </Article>
+
+          <a>Baixar CV</a>
+          <button>Vamos conversar</button>
         </Section>
       </main>
     </>
