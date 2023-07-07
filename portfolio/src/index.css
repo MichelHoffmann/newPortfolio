@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  --purple-dark: #7242B3;
+  --purple-medium: #8B65BF;
+  --purple-ligth: #273273;
+  --black: #000;
+  --white: #fff;
+  --gray-200: #8C8C8C;
+  --gray-300: #262626;
+  --blue-gray: #1D1F23;
+}
+
+body {
+  background-color: var(--gray-300);
+  width: 100vw;
+  height: 100vh;
+}
