@@ -31,6 +31,40 @@ export const Section = styled.section`
   h3 {
     font-size: 1.5rem;
   }
+
+  div.baixar-cv {
+    min-width: 290px;
+    min-height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+
+    a,
+    a.whats {
+      font-size: 1rem;
+      color: #bfadd980;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a.whats {
+      font-family: 'Inter';
+      background-color: var(--gray-300);
+      border: 1px solid #bfadd980;
+      border-radius: 7px;
+      padding: 10px;
+      gap: 5px;
+    }
+  }
 `
 
 export const Article = styled.article`

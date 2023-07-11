@@ -8,6 +8,12 @@ export const Div = styled.div`
     color: var(--white);
     text-decoration: none;
     font-size: 1rem;
+    border-bottom: 3px solid var(--gray-300);
+    transition: 200ms;
+  }
+
+  a:hover {
+    border-bottom: 3px solid var(--purple-dark);
   }
 `
 

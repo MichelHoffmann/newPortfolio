@@ -4,7 +4,9 @@ import ts from './assets/typescript-logo.svg'
 import react from './assets/react-logo.svg'
 import tailwind from './assets/tailwind-logo.svg'
 import next from './assets/next-logo.svg'
+import CurriculoMichel from './assets/curriculo-michel.pdf'
 import { Article, Section } from './App'
+import { ArrowLineDown, WhatsappLogo } from 'phosphor-react'
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <Header></Header>
       <main>
         <Section>
-          <img src={avatar} alt="" />
+          <img src={avatar} alt="desenho do michel com oculos e blusa preta" />
           <div>
             <p>OLÁ 👋🏽 EU SOU O</p>
             <h1>
@@ -39,8 +41,20 @@ function App() {
             </div>
           </Article>
 
-          <a>Baixar CV</a>
-          <button>Vamos conversar</button>
+          <div className="baixar-cv">
+            <a href={CurriculoMichel} download>
+              Baixar CV <ArrowLineDown />
+            </a>
+            <a
+              href="https://wa.me/5568981141671"
+              className="whats"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <WhatsappLogo />
+              Vamos conversar
+            </a>
+          </div>
         </Section>
       </main>
     </>
