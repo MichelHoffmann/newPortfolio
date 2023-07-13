@@ -34,8 +34,10 @@ export const MyInformations = styled.section`
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 7px;
+    font-weight: 400;
+    color: var(--gray-200);
   }
 
   div.baixar-cv {
@@ -71,7 +73,7 @@ export const MyInformations = styled.section`
   }
 
   p.text {
-    width: 70%;
+    width: 80%;
   }
 
   a.projects {
@@ -81,7 +83,7 @@ export const MyInformations = styled.section`
     text-decoration: none;
     background-color: var(--purple-dark);
     border: 2px solid var(--purple-dark);
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px 20px;
     transition: 150ms;
   }
@@ -107,8 +109,14 @@ export const TechIcon = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 300ms;
 
   img {
     width: 75%;
+  }
+
+  &:hover {
+    scale: 1.2;
+    transform: rotate(-20deg);
   }
 `

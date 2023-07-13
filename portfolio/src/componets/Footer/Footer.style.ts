@@ -6,7 +6,7 @@ export const FooterComponent = styled.footer`
   text-align: center;
   padding-block: 12px;
   p {
-    color: white;
+    color: var(--gray-100);
     font-weight: bold;
   }
 `

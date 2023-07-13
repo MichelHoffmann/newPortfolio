@@ -1,15 +1,11 @@
-import { Header } from './componets/Header'
-
-import { AboutMe } from './componets/AboutMe'
-import { Footer } from './componets/Footer'
+import { Router } from './Router'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <>
-      <Header />
-      <AboutMe />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
 
