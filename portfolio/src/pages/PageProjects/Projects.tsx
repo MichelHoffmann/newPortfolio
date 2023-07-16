@@ -9,6 +9,7 @@ export function Projects() {
       about:
         'Projeto freelancer feito para uma marcenaria com o objetivo de fazer com o cliente tivesse um portifolio online contendo todos os seus projetos, o ajudando com seus clientes.',
       techs: ['React', 'Typescript', 'Styled Components'],
+      img: '../../assets/styllar-moveis.png',
     },
     {
       name: 'Best Player',
@@ -16,6 +17,7 @@ export function Projects() {
       about:
         'Projeto openSource feito para a comunidade gamer com o objetivo de reunir gamers do mundo todo permitindo que eles se ajudem, tirando duvidas e dando dicas uns aos outros.',
       techs: ['React', 'Typescript', 'Tailwind'],
+      img: '../../assets/styllar-moveis.png',
     },
   ]
 

@@ -12,6 +12,7 @@ import next from '../../assets/next-logo.svg'
 import CurriculoMichel from '../../assets/curriculo-michel.pdf'
 
 import { ArrowLineDown, WhatsappLogo } from 'phosphor-react'
+import { NavLink } from 'react-router-dom'
 
 export function AboutMe() {
   return (
@@ -59,10 +60,10 @@ export function AboutMe() {
           estou iniciando os meus estudos voltados para o back-end seguindo a
           mesma stack usando node JS.
         </p>
-        <a href="#" className="projects">
+        <NavLink to="/projects" className="projects">
           {' '}
           Meus projetos
-        </a>
+        </NavLink>
       </MyInformations>
     </AboutMeMain>
   )

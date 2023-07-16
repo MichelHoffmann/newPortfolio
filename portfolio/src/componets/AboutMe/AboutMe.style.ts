@@ -77,20 +77,20 @@ export const MyInformations = styled.section`
   }
 
   a.projects {
-    margin-block: 20px;
+    margin-block: 23px;
     font-size: 1.1rem;
     color: white;
     text-decoration: none;
-    background-color: var(--purple-dark);
     border: 2px solid var(--purple-dark);
     border-radius: 30px;
     padding: 10px 20px;
     transition: 150ms;
+    box-shadow: 0px 0px 39px -5px rgba(114, 66, 179, 0.85);
   }
 
   a.projects:hover {
-    box-shadow: 0px 0px 23px -2px rgba(114, 66, 179, 1);
-    background-color: var(--gray-300);
+    /* box-shadow: 0px 0px 23px -2px rgba(114, 66, 179, 1); */
+    background-color: var(--purple-dark);
   }
 `
 

@@ -4,6 +4,7 @@ interface ProjectsObject {
   name: string
   about: string
   techs: string[]
+  img: string
 }
 export function ProjectInfo(props: ProjectsObject) {
   return (
@@ -14,6 +15,7 @@ export function ProjectInfo(props: ProjectsObject) {
         <p>{props.techs[1]}</p>
         <p>{props.techs[2]}</p>
       </div>
+      <img src={props.img} alt="" />
     </DivProject>
   )
 }
