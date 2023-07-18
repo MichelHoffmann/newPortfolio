@@ -11,8 +11,9 @@ import tailwind from '../../assets/tailwind-logo.svg'
 import next from '../../assets/next-logo.svg'
 import CurriculoMichel from '../../assets/curriculo-michel.pdf'
 
-import { ArrowLineDown, WhatsappLogo } from 'phosphor-react'
+import { ArrowLineDown } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
+import { WhatsButton } from '../WhatsButton'
 
 export function AboutMe() {
   return (
@@ -43,14 +44,7 @@ export function AboutMe() {
           <a href={CurriculoMichel}>
             Baixar CV <ArrowLineDown size={18} />
           </a>
-          <a
-            href="https://wa.me/5568981141671"
-            className="whats"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <WhatsappLogo size={18} /> Vamos conversar
-          </a>
+          <WhatsButton />
         </div>
         <p className="text">
           Sou um desenvolvedor Front-End apaixonado por tecnologia. Iniciei

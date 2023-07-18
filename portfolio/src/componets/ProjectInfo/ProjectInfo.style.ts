@@ -1,11 +1,13 @@
 import { styled } from 'styled-components'
 
 export const EachProject = styled.article`
-  min-width: 300px;
+  min-width: 285px;
+  max-width: 350px;
+  padding: 15px 25px;
   background-color: var(--blue-gray);
   border-radius: 7px;
   border: 2px solid var(--purple-dark);
-  padding: 15px 25px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +20,7 @@ export const EachProject = styled.article`
   p {
     color: var(--gray-200);
     text-align: center;
+    margin: 0;
   }
 
   .techs {
@@ -28,22 +31,20 @@ export const EachProject = styled.article`
   }
 
   .techs p {
+    display: block;
     min-width: 100px;
     max-width: 170px;
     padding: 5px;
-    font-weight: bold;
     color: var(--purple-dark);
     background-color: var(--tech);
     border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
   }
 
   img {
-    min-width: 250px;
+    min-width: 240px;
     max-width: 80%;
     border-radius: 10px;
   }
 `
-
-export const Container = styled.div``
-export const DivProjectsWrapper = styled.div``
-export const DivProjects = styled.div``
