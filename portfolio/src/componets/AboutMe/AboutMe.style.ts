@@ -46,7 +46,8 @@ export const MyInformations = styled.section`
     align-items: center;
     justify-content: center;
     gap: 20px;
-    a {
+
+    .curriculo {
       font-size: 1rem;
       font-weight: 400;
       color: #bfadd980;
@@ -59,14 +60,7 @@ export const MyInformations = styled.section`
       transition: 300ms;
     }
 
-    a.whats {
-      color: #bfadd980;
-      border: 1px solid;
-      border-radius: 7px;
-      padding: 10px;
-    }
-
-    a:hover {
+    .curriculo:hover {
       color: var(--purple-medium);
       scale: 1.05;
     }

@@ -11,7 +11,6 @@ export const EachProject = styled.article`
   flex-direction: column;
   align-items: center;
   gap: 17px;
-  flex-shrink: 0;
 
   h3 {
     font-size: 1.2rem;
@@ -48,50 +47,5 @@ export const EachProject = styled.article`
     max-width: 350px;
     aspect-ratio: 16/9;
     border-radius: 10px;
-  }
-`
-
-export const Container = styled.div`
-  position: relative;
-  width: 100%;
-
-  .gallery-wrapper::-webkit-scrollbar {
-    display: none;
-  }
-
-  .gallery-wrapper {
-    overflow-x: auto;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-
-  .gallery {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 10px;
-  }
-
-  .arrow-left,
-  .arrow-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: 0;
-    cursor: pointer;
-    background: linear-gradient(to left, transparent 0%, black 200%);
-    border: none;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-  }
-
-  .arrow-right {
-    position: absolute;
-    top: 0;
-    left: auto;
-    right: 0;
-    bottom: 0;
-    cursor: pointer;
-    background: linear-gradient(to right, transparent 0%, black 200%);
   }
 `

@@ -1,11 +1,10 @@
-import { WhatsappLogo } from 'phosphor-react'
+import { WhatsappLogo } from '@phosphor-icons/react'
 import { WhatsLink } from './WhatsLink.styled'
 
 export function WhatsButton() {
   return (
     <WhatsLink
       href="https://wa.me/5568981141671"
-      className="whats"
       target="_blank"
       rel="noreferrer"
     >

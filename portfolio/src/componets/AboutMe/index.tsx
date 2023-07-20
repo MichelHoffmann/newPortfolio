@@ -11,9 +11,9 @@ import tailwind from '../../assets/tailwind-logo.svg'
 import next from '../../assets/next-logo.svg'
 import CurriculoMichel from '../../assets/curriculo-michel.pdf'
 
-import { ArrowLineDown } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
 import { WhatsButton } from '../WhatsButton'
+import { ArrowLineDown } from '@phosphor-icons/react'
 
 export function AboutMe() {
   return (
@@ -41,7 +41,7 @@ export function AboutMe() {
           </TechIcon>
         </TechContainer>
         <div className="baixar-cv">
-          <a href={CurriculoMichel}>
+          <a className="curriculo" href={CurriculoMichel}>
             Baixar CV <ArrowLineDown size={18} />
           </a>
           <WhatsButton />
