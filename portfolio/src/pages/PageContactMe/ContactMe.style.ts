@@ -1,7 +1,8 @@
 import { styled } from 'styled-components'
 
 export const ContactContainer = styled.div`
-  width: 360px;
+  width: 350px;
+  margin: 0 auto;
   background-color: var(--blue-gray);
   display: flex;
   flex-direction: column;
@@ -38,6 +39,11 @@ export const ContactContainer = styled.div`
       color: var(--purple-dark);
       background-color: var(--tech);
       border-radius: 7px;
+      transition: 250ms;
+    }
+
+    a:hover {
+      scale: 1.1;
     }
   }
 `

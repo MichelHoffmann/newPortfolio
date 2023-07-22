@@ -1,12 +1,24 @@
 import { styled } from 'styled-components'
 
 export const ProjectsContainer = styled.section`
-  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
+  padding: 30px;
+
+  .h1 {
+    width: 100%;
+    padding-inline: 30;
+    text-align: left;
+  }
+
   h1 {
     font-size: 1.7rem;
     margin-bottom: 30px;
   }
+
   .vejaMais {
     margin-top: 25px;
     display: flex;
