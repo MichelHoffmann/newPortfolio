@@ -41,7 +41,7 @@ export function AboutMe() {
           </TechIcon>
         </TechContainer>
         <div className="baixar-cv">
-          <a className="curriculo" href={CurriculoMichel}>
+          <a className="curriculo animation" href={CurriculoMichel}>
             Baixar CV <ArrowLineDown size={18} />
           </a>
           <WhatsButton />
@@ -50,7 +50,7 @@ export function AboutMe() {
           Sou um desenvolvedor Front-End apaixonado por tecnologia. Iniciei
           minha jornada na programação web em 2022 estudando através da Udemy,
           Youtube e a comunidade Dev. Atualmente desenvolvo meus projetos
-          utilizando Typescript, React, Next, Styled Components e Tailwind. E
+          utilizando Typescript, React, Next, Styled Components e Tailwind e
           estou iniciando os meus estudos voltados para o back-end seguindo a
           mesma stack usando node JS.
         </p>

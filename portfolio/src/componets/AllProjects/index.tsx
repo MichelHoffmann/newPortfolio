@@ -9,10 +9,9 @@ export function AllProjects() {
           <div className="item">
             <h3>Styllar Móveis 1</h3>
             <p>
-              Projeto freelancer feito para uma marcenaria com o objetivo de
-              fazer com que o cliente tivesse um portifolio online contendo
-              todos os seus projetos, facilitando seu trabalho com os seus
-              clientes.
+              Projeto freelancer feito para uma marcenaria servindo como um
+              portfolio online contendo todos os seus projetos de forma
+              acessivel, facilitando o trabalho com os seus clientes.
             </p>
             <div className="techs">
               <p>Typescript</p>

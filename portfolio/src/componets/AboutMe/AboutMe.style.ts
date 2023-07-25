@@ -10,6 +10,73 @@ export const AboutMeMain = styled.main`
   img {
     width: 350px;
   }
+
+  .animation {
+    animation: motion 25s;
+
+    @keyframes motion {
+      0% {
+        letter-spacing: 3px;
+      }
+      5% {
+        letter-spacing: 0px;
+      }
+      10% {
+        letter-spacing: 3px;
+      }
+      15% {
+        letter-spacing: 0px;
+      }
+      20% {
+        letter-spacing: 3px;
+      }
+      25% {
+        letter-spacing: 0px;
+      }
+      30% {
+        letter-spacing: 3px;
+      }
+      35% {
+        letter-spacing: 0px;
+      }
+      40% {
+        letter-spacing: 3px;
+      }
+      45% {
+        letter-spacing: 0px;
+      }
+      50% {
+        letter-spacing: 3px;
+      }
+      55% {
+        letter-spacing: 0px;
+      }
+      60% {
+        letter-spacing: 3px;
+      }
+      65% {
+        letter-spacing: 0px;
+      }
+      70% {
+        letter-spacing: 3px;
+      }
+      75% {
+        letter-spacing: 0px;
+      }
+      80% {
+        letter-spacing: 3px;
+      }
+      85% {
+        letter-spacing: 0px;
+      }
+      90% {
+        letter-spacing: 3px;
+      }
+      95% {
+        letter-spacing: 0px;
+      }
+    }
+  }
 `
 
 export const MyInformations = styled.section`
@@ -50,19 +117,18 @@ export const MyInformations = styled.section`
     .curriculo {
       font-size: 1rem;
       font-weight: 400;
-      color: #bfadd980;
+      color: var(--purple-medium);
       text-decoration: none;
 
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 5px;
-      transition: 300ms;
+      transition: 700ms;
     }
 
     .curriculo:hover {
-      color: var(--purple-medium);
-      scale: 1.05;
+      letter-spacing: 6px;
     }
   }
 
@@ -70,7 +136,7 @@ export const MyInformations = styled.section`
     width: 80%;
   }
 
-  a.projects {
+  .projects {
     margin-block: 23px;
     font-size: 1.1rem;
     color: white;
@@ -80,11 +146,12 @@ export const MyInformations = styled.section`
     padding: 10px 20px;
     transition: 150ms;
     box-shadow: 0px 0px 39px -5px rgba(114, 66, 179, 0.85);
+    background-color: var(--purple-dark);
   }
 
   a.projects:hover {
     /* box-shadow: 0px 0px 23px -2px rgba(114, 66, 179, 1); */
-    background-color: var(--purple-dark);
+    background-color: var(--gray-300);
   }
 `
 
@@ -97,7 +164,7 @@ export const TechIcon = styled.div`
   width: 45px;
   height: 45px;
   border-radius: 7px;
-  border: 2px solid var(--purple-dark);
+  border: 1.7px solid var(--purple-dark);
   background-color: var(--blue-gray);
 
   display: flex;
@@ -107,10 +174,5 @@ export const TechIcon = styled.div`
 
   img {
     width: 75%;
-  }
-
-  &:hover {
-    scale: 1.2;
-    transform: rotate(-20deg);
   }
 `
