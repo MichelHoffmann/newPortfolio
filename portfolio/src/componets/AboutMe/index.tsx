@@ -1,5 +1,6 @@
 import {
   AboutMeMain,
+  HeaderInformations,
   MyInformations,
   TechContainer,
   TechIcon,
@@ -18,8 +19,8 @@ import { ArrowLineDown } from '@phosphor-icons/react'
 export function AboutMe() {
   return (
     <AboutMeMain>
-      <img src={avatar} alt="desenho do michel com oculos e blusa preta" />
-      <MyInformations>
+      <HeaderInformations>
+        <img src={avatar} alt="desenho do michel com oculos e blusa preta" />
         <p>OLÁ 👋🏽 EU SOU O</p>
         <h1>
           MICHEL <br />
@@ -40,8 +41,10 @@ export function AboutMe() {
             <img src={next} alt="" />
           </TechIcon>
         </TechContainer>
-        <div className="baixar-cv">
-          <a className="curriculo animation" href={CurriculoMichel}>
+      </HeaderInformations>
+      <MyInformations>
+        <div className="baixar-cv animation">
+          <a className="curriculo" href={CurriculoMichel}>
             Baixar CV <ArrowLineDown size={18} />
           </a>
           <WhatsButton />

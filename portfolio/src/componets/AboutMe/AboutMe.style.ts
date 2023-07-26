@@ -1,14 +1,92 @@
 import { styled } from 'styled-components'
+import BgDesktop from '../../assets/bg-desktop.png'
 
 export const AboutMeMain = styled.main`
+  background-color: var(--gray-300);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
 
+  padding-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    gap: 200px;
+
+    background-image: url(${BgDesktop});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+`
+
+export const HeaderInformations = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+
+  color: white;
+  font-weight: 400;
+  text-align: center;
+
   img {
-    width: 350px;
+    width: 340px;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    line-height: 0.9;
+    font-weight: 600;
+    span {
+      color: var(--purple-medium);
+    }
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--gray-200);
+  }
+
+  @media screen and (min-width: 768px) {
+    img {
+      width: 300px;
+    }
+  }
+`
+
+export const MyInformations = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div.baixar-cv {
+    margin-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 250ms;
+
+    .curriculo {
+      color: var(--purple-medium);
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .curriculo:hover {
+      color: var(--purple-dark);
+    }
   }
 
   .animation {
@@ -77,63 +155,10 @@ export const AboutMeMain = styled.main`
       }
     }
   }
-`
-
-export const MyInformations = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-
-  color: white;
-  font-weight: 400;
-  text-align: center;
-
-  h1 {
-    margin-top: 4px;
-    font-size: 2.3rem;
-    line-height: 0.9;
-    font-weight: 600;
-    span {
-      color: var(--purple-medium);
-    }
-  }
-
-  h3 {
-    font-size: 1.4rem;
-    margin-bottom: 7px;
-    font-weight: 400;
-    color: var(--gray-200);
-  }
-
-  div.baixar-cv {
-    margin-block: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-
-    .curriculo {
-      font-size: 1rem;
-      font-weight: 400;
-      color: var(--purple-medium);
-      text-decoration: none;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 5px;
-      transition: 700ms;
-    }
-
-    .curriculo:hover {
-      letter-spacing: 6px;
-    }
-  }
 
   p.text {
-    width: 80%;
+    max-width: 380px;
+    color: white;
   }
 
   .projects {

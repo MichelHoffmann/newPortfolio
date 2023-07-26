@@ -11,5 +11,9 @@ export const WhatsLink = styled.a`
   border-radius: 7px;
   padding: 10px 17px;
   text-decoration: none;
-  transition: 700ms;
+
+  &:hover {
+    color: var(--purple-dark);
+    border-color: var(--purple-dark);
+  }
 `
