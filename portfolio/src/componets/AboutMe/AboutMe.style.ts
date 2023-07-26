@@ -157,7 +157,7 @@ export const MyInformations = styled.section`
   }
 
   p.text {
-    max-width: 380px;
+    width: 80%;
     color: white;
   }
 
@@ -177,6 +177,12 @@ export const MyInformations = styled.section`
   a.projects:hover {
     /* box-shadow: 0px 0px 23px -2px rgba(114, 66, 179, 1); */
     background-color: var(--gray-300);
+  }
+
+  @media screen and (min-width: 768px) {
+    p {
+      width: 380px;
+    }
   }
 `
 
