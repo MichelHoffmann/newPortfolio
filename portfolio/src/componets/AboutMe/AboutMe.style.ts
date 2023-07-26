@@ -159,6 +159,7 @@ export const MyInformations = styled.section`
   p.text {
     width: 80%;
     color: white;
+    text-align: center;
   }
 
   .projects {
