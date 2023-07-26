@@ -8,7 +8,8 @@ export const ContactContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-block: 40px;
+  padding-top: 40px;
+  padding-bottom: 120px;
   gap: 50px;
 
   border: 2px solid var(--purple-dark);
