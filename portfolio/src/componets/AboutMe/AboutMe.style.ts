@@ -13,8 +13,9 @@ export const AboutMeMain = styled.main`
 
   @media screen and (min-width: 768px) {
     height: 100vh;
+    padding-inline: 50px;
     flex-direction: row;
-    gap: 200px;
+    gap: 150px;
 
     background-image: url(${BgDesktop});
     background-size: cover;
