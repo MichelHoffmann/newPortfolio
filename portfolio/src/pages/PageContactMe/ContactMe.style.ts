@@ -2,12 +2,12 @@ import { styled } from 'styled-components'
 
 export const ContactContainer = styled.div`
   width: 350px;
+  height: 500px;
   background-color: var(--blue-gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-block: 20px
 
   gap: 50px;
 
