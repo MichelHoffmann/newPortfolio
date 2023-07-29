@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
 
 export const ContactContainer = styled.div`
-  margin-block: 30px
+  margin-block: 30px;
   width: 350px;
   height: 500px;
   background-color: var(--blue-gray);
