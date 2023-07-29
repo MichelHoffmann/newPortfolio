@@ -15,10 +15,6 @@ export const Div = styled.div`
       border-bottom: 3px solid var(--purple-dark);
     }
   }
-
-  a:hover {
-    color: var(--purple-dark);
-  }
 `
 
 export const HeaderComponent = styled.header`
