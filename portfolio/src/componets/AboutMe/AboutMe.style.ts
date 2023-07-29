@@ -9,13 +9,10 @@ export const AboutMeMain = styled.main`
   align-items: center;
   gap: 25px;
 
-  padding-bottom: 20px;
-
   @media screen and (min-width: 768px) {
     height: 100%;
-    padding-inline: 80px;
     flex-direction: row;
-    gap: 150px;
+    gap: 120px;
 
     background-image: url(${BgDesktop});
     background-size: cover;
