@@ -7,6 +7,7 @@ export const ContactContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-block: 20px
 
   gap: 50px;
 
