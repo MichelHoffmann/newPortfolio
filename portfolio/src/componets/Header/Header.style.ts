@@ -10,10 +10,14 @@ export const Div = styled.div`
     font-size: 1rem;
     border-bottom: 3px solid var(--gray-300);
     transition: 200ms;
+
+    &.active {
+        border-bottom: 3px solid var(--purple-dark);
+    }
   }
 
   a:hover {
-    border-bottom: 3px solid var(--purple-dark);
+    color: var(--purple-dark);
   }
 `
 
