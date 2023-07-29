@@ -54,5 +54,6 @@ export const ContactLayout = styled.div`
   
   @media screen and (min-width: 768px) {
     height: calc(100vh - 120px);
+    background: red;
   }
 `
