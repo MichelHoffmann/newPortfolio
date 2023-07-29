@@ -12,8 +12,8 @@ export const AboutMeMain = styled.main`
   padding-bottom: 20px;
 
   @media screen and (min-width: 768px) {
-    height: 100vh;
-    padding-inline: 50px;
+    height: 100%;
+    padding-inline: 80px;
     flex-direction: row;
     gap: 150px;
 
