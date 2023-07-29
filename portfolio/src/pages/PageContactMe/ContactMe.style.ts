@@ -44,14 +44,14 @@ export const ContactContainer = styled.div`
       scale: 1.1;
     }
   }
-
-  @media screen and (min-width: 768px) {
-    height: calc(100vh - 120px);
-  }
 `
 
 export const ContactLayout = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  @media screen and (min-width: 768px) {
+    height: calc(100vh - 120px);
+  }
 `
