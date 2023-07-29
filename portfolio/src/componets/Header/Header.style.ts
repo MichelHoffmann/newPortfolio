@@ -12,7 +12,7 @@ export const Div = styled.div`
     transition: 200ms;
 
     &.active {
-        border-bottom: 3px solid var(--purple-dark);
+      border-bottom: 3px solid var(--purple-dark);
     }
   }
 
@@ -23,7 +23,7 @@ export const Div = styled.div`
 
 export const HeaderComponent = styled.header`
   width: 100%;
-  height: 80px;
+  height: 70px;
 
   display: flex;
   justify-content: space-between;

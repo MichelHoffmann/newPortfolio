@@ -2,19 +2,16 @@ import { styled } from 'styled-components'
 
 export const ContactContainer = styled.div`
   width: 350px;
-  margin: 0 auto;
   background-color: var(--blue-gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-block: 40px;
-  margin-bottom: 120px;
+
   gap: 50px;
 
   border: 2px solid var(--purple-dark);
   border-radius: 7px;
-  margin-block: 40px;
 
   h1 {
     color: var(--purple-medium);
@@ -47,4 +44,14 @@ export const ContactContainer = styled.div`
       scale: 1.1;
     }
   }
+
+  @media screen and (min-width: 768px) {
+    height: calc(100vh - 120px);
+  }
+`
+
+export const ContactLayout = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `

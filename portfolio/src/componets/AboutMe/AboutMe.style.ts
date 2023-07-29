@@ -1,8 +1,6 @@
 import { styled } from 'styled-components'
-import BgDesktop from '../../assets/bg-desktop.png'
 
 export const AboutMeMain = styled.main`
-  background-color: var(--gray-300);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,14 +8,10 @@ export const AboutMeMain = styled.main`
   gap: 25px;
 
   @media screen and (min-width: 768px) {
-    height: 100%;
+    height: calc(100vh - 120px);
+    width: 100%;
     flex-direction: row;
-    gap: 120px;
-
-    background-image: url(${BgDesktop});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    gap: 180px;
   }
 `
 
@@ -52,8 +46,9 @@ export const HeaderInformations = styled.div`
   }
 
   @media screen and (min-width: 768px) {
+    height: 280px;
     img {
-      width: 300px;
+      width: 280px;
     }
   }
 `
@@ -62,6 +57,7 @@ export const MyInformations = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
 
   div.baixar-cv {
     margin-block: 20px;
@@ -182,6 +178,12 @@ export const MyInformations = styled.section`
   @media screen and (min-width: 768px) {
     p {
       width: 380px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    p.text {
+      width: 500px;
     }
   }
 `

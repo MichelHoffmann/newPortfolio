@@ -27,6 +27,7 @@ export const ProjectsContainer = styled.section`
     justify-content: flex-end;
     color: rgba(114, 66, 179, 0.7);
   }
+
   .divWhats {
     display: flex;
     justify-content: center;
