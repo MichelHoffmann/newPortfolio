@@ -48,12 +48,12 @@ export const ContactContainer = styled.div`
 `
 
 export const ContactLayout = styled.div`
+  height: calc(100vh - 120px);
   display: flex;
   justify-content: center;
   align-items: center;
   
   @media screen and (min-width: 768px) {
     height: calc(100vh - 120px);
-    background: red;
   }
 `
