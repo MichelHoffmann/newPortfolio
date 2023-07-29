@@ -48,7 +48,7 @@ export const ContactContainer = styled.div`
 `
 
 export const ContactLayout = styled.div`
-  height: calc(100vh - 120px);
+  height: calc(100% - 120px);
   display: flex;
   justify-content: center;
   align-items: center;
