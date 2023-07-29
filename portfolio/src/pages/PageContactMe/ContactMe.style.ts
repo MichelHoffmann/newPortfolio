@@ -1,6 +1,7 @@
 import { styled } from 'styled-components'
 
 export const ContactContainer = styled.div`
+  margin-block: 30px
   width: 350px;
   height: 500px;
   background-color: var(--blue-gray);
@@ -48,7 +49,6 @@ export const ContactContainer = styled.div`
 `
 
 export const ContactLayout = styled.div`
-  margin-block: 30px
   display: flex;
   justify-content: center;
   align-items: center;
